@@ -1,0 +1,14 @@
+{
+  "version": "13.0",
+  "notes": "Updates from the Companion; smaller apps; real keyframes in every recording (seeking works); smaller copies and Repair fixes.",
+  "companion": {
+    "versionCode": 23,
+    "file": "[Eclipse] WearCompanion v13.0.apk",
+    "sha256": "0559937c2a81f3af2f67ca31e16afe0cd93eb658844e85c5e52aeb323ac654af"
+  },
+  "watch": {
+    "versionCode": 24,
+    "file": "[Eclipse] WearRecord v13.0.apk",
+    "sha256": "cd1e2a6394877d72729781a84c4233fafbe78f80043a1ea474c0b2f36358c105"
+  }
+}
