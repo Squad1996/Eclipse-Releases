@@ -1,23 +1,24 @@
 {
-  "version": "13.4",
-  "notes": "Test build: Wear Transfer support in the Companion.",
+  "version": "13.5",
+  "notes": "Test round 2: save locations, App settings, Wear Transfer settings from the phone, connection only while the Companion is open, no more permanent notification.",
   "companion": {
-    "version": "13.4",
-    "versionCode": 27,
-    "file": "[Eclipse] WearCompanion v13.4-test.apk",
-    "sha256": "8197b05aeba91b09101075700bcf3d92f6f8370cd05ed33b3ec6b3f700fa4571"
+    "version": "13.5",
+    "versionCode": 28,
+    "file": "[Eclipse] WearCompanion v13.5-test.apk",
+    "sha256": "2976daf0532e0e0c08fa2a8257edab7554e0e272210a433f928c596762f25c9a"
   },
   "watch": {
-    "version": "13.3",
-    "versionCode": 27,
-    "file": "[Eclipse] WearRecord v13.3.apk",
-    "sha256": "7e7b3c878838d64b4f973b9982317e80348fa8edc7741720a312a396122724f2"
+    "version": "13.4",
+    "versionCode": 28,
+    "file": "[Eclipse] WearRecord v13.4-test.apk",
+    "sha256": "712a57ad8391cabb93a859b2471b6ad6430b4ca94ce1a412e479157dfa125ed0",
+    "notes": "Wakes Wear Transfer when the Companion or Wear Record opens."
   },
   "transfer": {
-    "version": "1.0",
-    "versionCode": 1,
-    "file": "[Eclipse] WearTransfer v1.0.apk",
-    "sha256": "9bb947fd28b930ad211327912e0c2d39f3f2be8af93acee0672b7c4ed4c63ced",
-    "notes": "First test build of Wear Transfer."
+    "version": "1.1",
+    "versionCode": 2,
+    "file": "[Eclipse] WearTransfer v1.1.apk",
+    "sha256": "4b98ff2355f39ea1692d1c7b1f876ace9a6e23b7fde67c808d0344d7340fb6a4",
+    "notes": "New name, Folders view, audio, long-press menu, All files access, settings from the phone, fixed Send button."
   }
 }
