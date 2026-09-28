@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="Eclipse Wear" width="220"></p>
+
 # Eclipse Wear
 
 Record your Wear OS watch screen and get the videos on your phone.
