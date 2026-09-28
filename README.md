@@ -49,9 +49,12 @@ a helper. After that, updates arrive automatically.
 **Install from your phone (easiest)**
 
 1. Download `[Eclipse] WearRecord v….apk` on your phone, the same way as the Companion.
-2. Install a sideload app from the Play Store, such as **Wear Installer 2** or **Bugjaeger**.
-3. Follow its steps to pair with the watch (**Wireless debugging → Pair new device**
-   on the watch shows the code), then choose the WearRecord file and install.
+2. Install **Bugjaeger** from the Play Store.
+3. Pair it with the watch: on the watch open **Wireless debugging → Pair new device**,
+   then enter the IP address, port and code it shows in Bugjaeger.
+4. In Bugjaeger, install the WearRecord file you downloaded (the install/package tab,
+   pick the APK). If it doesn't connect the first time, turn Wireless debugging off
+   and on again and retry.
 
 **Or install from a computer** (with [Android platform-tools](https://developer.android.com/tools/releases/platform-tools))
 
