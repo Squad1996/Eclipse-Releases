@@ -1,16 +1,16 @@
 {
-  "version": "13.2",
-  "notes": "Check for updates and an About page on the watch; deleting on the watch really deletes; the send menu follows the bezel.",
+  "version": "13.3",
+  "notes": "Getting ready for a new release address, so updates keep working after the GitHub account is renamed.",
   "companion": {
-    "version": "13.2",
-    "versionCode": 25,
-    "file": "[Eclipse] WearCompanion v13.2.apk",
-    "sha256": "154927ad17a8cf888a535c56568d3eefb513f22dfa11bb5cddb123344f41671d"
+    "version": "13.3",
+    "versionCode": 26,
+    "file": "[Eclipse] WearCompanion v13.3.apk",
+    "sha256": "b62acfe68f8516efc3aa8e4376f75736c81869deaf4d52ccd6fd8b30c5708cd7"
   },
   "watch": {
-    "version": "13.2",
-    "versionCode": 26,
-    "file": "[Eclipse] WearRecord v13.2.apk",
-    "sha256": "8b79eb0760ff1a32687dcb796e36b553e55ba7716da3f6b8913eb4f9336225d1"
+    "version": "13.3",
+    "versionCode": 27,
+    "file": "[Eclipse] WearRecord v13.3.apk",
+    "sha256": "7e7b3c878838d64b4f973b9982317e80348fa8edc7741720a312a396122724f2"
   }
 }
