@@ -1,16 +1,23 @@
 {
-  "version": "13.3",
-  "notes": "Getting ready for a new release address, so updates keep working after the GitHub account is renamed.",
+  "version": "13.4",
+  "notes": "Test build: Wear Transfer support in the Companion.",
   "companion": {
-    "version": "13.3",
-    "versionCode": 26,
-    "file": "[Eclipse] WearCompanion v13.3.apk",
-    "sha256": "b62acfe68f8516efc3aa8e4376f75736c81869deaf4d52ccd6fd8b30c5708cd7"
+    "version": "13.4",
+    "versionCode": 27,
+    "file": "[Eclipse] WearCompanion v13.4-test.apk",
+    "sha256": "8197b05aeba91b09101075700bcf3d92f6f8370cd05ed33b3ec6b3f700fa4571"
   },
   "watch": {
     "version": "13.3",
     "versionCode": 27,
     "file": "[Eclipse] WearRecord v13.3.apk",
     "sha256": "7e7b3c878838d64b4f973b9982317e80348fa8edc7741720a312a396122724f2"
+  },
+  "transfer": {
+    "version": "1.0",
+    "versionCode": 1,
+    "file": "[Eclipse] WearTransfer v1.0.apk",
+    "sha256": "9bb947fd28b930ad211327912e0c2d39f3f2be8af93acee0672b7c4ed4c63ced",
+    "notes": "First test build of Wear Transfer."
   }
 }
