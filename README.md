@@ -1,0 +1,100 @@
+# Eclipse Wear
+
+Record your Wear OS watch screen and get the videos on your phone.
+
+Two apps that work together:
+
+| App | Goes on | File |
+|---|---|---|
+| **Eclipse Wear Record** | your watch (Wear OS 3 or newer) | `[Eclipse] WearRecord v….apk` |
+| **Eclipse Wear Companion** | your phone (Android 8 or newer) | `[Eclipse] WearCompanion v….apk` |
+
+Tested on a Samsung Galaxy Watch8 Classic.
+
+## What it does
+
+- Records the watch screen, with sound from the microphone or the watch's media, or no sound.
+- Quality presets from Ultra to Low, with H.265 or H.264 video.
+- Sends videos to your phone while you record, right after, or when you choose.
+- Start a recording from your phone (turn on **Remote recording** in the watch's Settings).
+- On the phone: play, trim, share, and save smaller copies of your videos.
+- Updates for both apps come straight from this page.
+
+## Install
+
+Install the Companion first, then Wear Record. Always use the files from this page,
+because both apps must come from the same place to work together.
+
+### 1. Phone: Eclipse Wear Companion
+
+1. On your phone, open this page and tap `[Eclipse] WearCompanion v….apk`.
+2. Tap **⋯ → Download** (or **View raw**) to download the file.
+3. Open the downloaded file. If Android asks, allow your browser or Files app to
+   **install unknown apps**, then go back and tap **Install**.
+4. Open the Companion and allow the permissions it asks for.
+
+### 2. Watch: Eclipse Wear Record
+
+A watch can't download apps from a website, so you install this one once with
+a helper. After that, updates arrive automatically.
+
+**Turn on debugging on the watch**
+
+1. Watch **Settings → About watch → Software information**, then tap **Software
+   version** about 7 times until *Developer mode turned on* appears.
+   (On other watches, tap **Build number** in About instead.)
+2. **Settings → Developer options**: turn on **ADB debugging** and **Wireless
+   debugging**. The watch and the phone or computer must be on the same Wi-Fi.
+
+**Install from your phone (easiest)**
+
+1. Download `[Eclipse] WearRecord v….apk` on your phone, the same way as the Companion.
+2. Install a sideload app from the Play Store, such as **Wear Installer 2** or **Bugjaeger**.
+3. Follow its steps to pair with the watch (**Wireless debugging → Pair new device**
+   on the watch shows the code), then choose the WearRecord file and install.
+
+**Or install from a computer** (with [Android platform-tools](https://developer.android.com/tools/releases/platform-tools))
+
+```sh
+adb pair <watch-ip>:<pair-port>      # code from Wireless debugging → Pair new device
+adb connect <watch-ip>:<port>
+adb install "[Eclipse] WearRecord v….apk"   # the file you downloaded
+```
+
+When it's installed, turn **Wireless debugging** off again to save battery.
+
+### 3. First start
+
+Open **Wear Record** on the watch. A short tour shows how it works and asks
+for the permissions it needs. Then open the Companion on your phone: it shows
+your watch as **Ready**.
+
+## Updates
+
+- **On the phone:** when a new version is out, the Companion shows *Wear Record
+  update available*. Tap **Update now**. The watch asks you to confirm its update,
+  then the phone asks for the Companion.
+- **On the watch:** **Settings → About → Check for updates**.
+- The first time, Android asks you to allow the app to install updates. Allow it,
+  then go back to the app.
+
+## Troubleshooting
+
+- **"App not installed"**: an older copy from somewhere else is installed.
+  Uninstall it first, then install the file from this page.
+- **The Companion doesn't see the watch**: make sure the watch is connected to the
+  phone in the Galaxy Wearable (or Wear OS) app and that Wear Record is installed on it.
+
+## Privacy
+
+No accounts, no ads, no tracking. Your videos stay on your watch and phone and
+travel between them over the Wear OS connection. The apps only go online to
+check this page for updates.
+
+## Check the files
+
+Both apps are signed with the same key. Certificate SHA-256:
+
+```
+77:5E:06:92:10:BC:40:4B:8B:AE:56:62:B1:7C:3D:5B:66:13:95:38:82:5C:40:C4:A6:5A:B5:B3:CA:04:97:F0
+```
