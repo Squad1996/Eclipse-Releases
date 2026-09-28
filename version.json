@@ -1,14 +1,14 @@
 {
-  "version": "13.7",
+  "version": "13.8",
   "notes": "Test round 4: fixes for text size and the update popup, Wear Transfer tour and type carousel.",
   "companion": {
-    "version": "13.7",
-    "versionCode": 30,
-    "file": "[Eclipse] WearCompanion v13.7-test.apk",
-    "sha256": "4a87badb35ac2d66729897de401304df2cde2adc1c1cc16f26f680ccc4cb9aff",
+    "version": "13.8",
+    "versionCode": 31,
+    "file": "[Eclipse] WearCompanion v13.8-test.apk",
+    "sha256": "5cc20d91a356045483ce4c800030ccaee67e6d5c7767f5deff9aac8d0b65ab5a",
     "size": 2878984,
     "notes": [
-      "Update popup sits above the gesture bar"
+      "Test update: nothing new, just checking the update popup"
     ]
   },
   "watch": {
