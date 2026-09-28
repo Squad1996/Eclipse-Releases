@@ -1,16 +1,16 @@
 {
-  "version": "13.1",
-  "notes": "Slow-seeking videos are repaired automatically; update popup on Home and Recordings; players pause when you leave the app; quick spin needs 6 clicks.",
+  "version": "13.2",
+  "notes": "Check for updates and an About page on the watch; deleting on the watch really deletes; the send menu follows the bezel.",
   "companion": {
-    "version": "13.1",
-    "versionCode": 24,
-    "file": "[Eclipse] WearCompanion v13.1.apk",
-    "sha256": "e57080de4b240470307fba846a99fb2671bf9e16a571b56c122519d50e6818d4"
+    "version": "13.2",
+    "versionCode": 25,
+    "file": "[Eclipse] WearCompanion v13.2.apk",
+    "sha256": "154927ad17a8cf888a535c56568d3eefb513f22dfa11bb5cddb123344f41671d"
   },
   "watch": {
-    "version": "13.1",
-    "versionCode": 25,
-    "file": "[Eclipse] WearRecord v13.1.apk",
-    "sha256": "6010e9a97bbc1f19e75fa683dd3a21ebfa9d4b34746c44bfcc935d116849a809"
+    "version": "13.2",
+    "versionCode": 26,
+    "file": "[Eclipse] WearRecord v13.2.apk",
+    "sha256": "8b79eb0760ff1a32687dcb796e36b553e55ba7716da3f6b8913eb4f9336225d1"
   }
 }
