@@ -1,24 +1,40 @@
 {
-  "version": "13.5",
-  "notes": "Test round 2: save locations, App settings, Wear Transfer settings from the phone, connection only while the Companion is open, no more permanent notification.",
+  "version": "13.6",
+  "notes": "Test round 3: text size, streamlined update popups, share menu.",
   "companion": {
-    "version": "13.5",
-    "versionCode": 28,
-    "file": "[Eclipse] WearCompanion v13.5-test.apk",
-    "sha256": "2976daf0532e0e0c08fa2a8257edab7554e0e272210a433f928c596762f25c9a"
+    "version": "13.6",
+    "versionCode": 29,
+    "file": "[Eclipse] WearCompanion v13.6-test.apk",
+    "sha256": "2e68a29a4eb582156be43fc05ef6bf857c7f7b2fcb2985e7b65375a5838f3538",
+    "size": 2878856,
+    "notes": [
+      "One tidy update popup per app, badges on Home",
+      "Share files to your watch from any app",
+      "Change the watch apps' text size from here"
+    ]
   },
   "watch": {
-    "version": "13.4",
-    "versionCode": 28,
-    "file": "[Eclipse] WearRecord v13.4-test.apk",
-    "sha256": "712a57ad8391cabb93a859b2471b6ad6430b4ca94ce1a412e479157dfa125ed0",
-    "notes": "Wakes Wear Transfer when the Companion or Wear Record opens."
+    "version": "13.5",
+    "versionCode": 29,
+    "file": "[Eclipse] WearRecord v13.5-test.apk",
+    "sha256": "d0eaff0a0a619d2eba84476f9c0a7746349bf583d2c1c597d35974281ec9ff73",
+    "size": 3472064,
+    "notes": [
+      "Text size setting: up to 145%",
+      "Brighter subtitles",
+      "Text size step in the tour"
+    ]
   },
   "transfer": {
-    "version": "1.1",
-    "versionCode": 2,
-    "file": "[Eclipse] WearTransfer v1.1.apk",
-    "sha256": "4b98ff2355f39ea1692d1c7b1f876ace9a6e23b7fde67c808d0344d7340fb6a4",
-    "notes": "New name, Folders view, audio, long-press menu, All files access, settings from the phone, fixed Send button."
+    "version": "1.2",
+    "versionCode": 3,
+    "file": "[Eclipse] WearTransfer v1.2.apk",
+    "sha256": "c11ed672e5cd4a9d69eef0f0e03c5911fbc2b766203408fcfe30782abd3d7393",
+    "size": 3021323,
+    "notes": [
+      "Text size setting: up to 145%",
+      "Share to Wear Transfer from other watch apps",
+      "Brighter subtitles"
+    ]
   }
 }
