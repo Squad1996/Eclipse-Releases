@@ -1,40 +1,37 @@
 {
-  "version": "13.6",
-  "notes": "Test round 3: text size, streamlined update popups, share menu.",
+  "version": "13.7",
+  "notes": "Test round 4: fixes for text size and the update popup, Wear Transfer tour and type carousel.",
   "companion": {
-    "version": "13.6",
-    "versionCode": 29,
-    "file": "[Eclipse] WearCompanion v13.6-test.apk",
-    "sha256": "2e68a29a4eb582156be43fc05ef6bf857c7f7b2fcb2985e7b65375a5838f3538",
-    "size": 2878856,
+    "version": "13.7",
+    "versionCode": 30,
+    "file": "[Eclipse] WearCompanion v13.7-test.apk",
+    "sha256": "4a87badb35ac2d66729897de401304df2cde2adc1c1cc16f26f680ccc4cb9aff",
+    "size": 2878984,
     "notes": [
-      "One tidy update popup per app, badges on Home",
-      "Share files to your watch from any app",
-      "Change the watch apps' text size from here"
+      "Update popup sits above the gesture bar"
     ]
   },
   "watch": {
-    "version": "13.5",
-    "versionCode": 29,
-    "file": "[Eclipse] WearRecord v13.5-test.apk",
-    "sha256": "d0eaff0a0a619d2eba84476f9c0a7746349bf583d2c1c597d35974281ec9ff73",
-    "size": 3472064,
+    "version": "13.6",
+    "versionCode": 30,
+    "file": "[Eclipse] WearRecord v13.6-test.apk",
+    "sha256": "89999226f6ce646ddb985b6b75dc1506a91623b0ef94700caa55a82d8234397f",
+    "size": 3472060,
     "notes": [
-      "Text size setting: up to 145%",
-      "Brighter subtitles",
-      "Text size step in the tour"
+      "Menu notes no longer cut off at bigger text",
+      "Text size: the bezel choice is saved"
     ]
   },
   "transfer": {
-    "version": "1.2",
-    "versionCode": 3,
-    "file": "[Eclipse] WearTransfer v1.2.apk",
-    "sha256": "c11ed672e5cd4a9d69eef0f0e03c5911fbc2b766203408fcfe30782abd3d7393",
-    "size": 3021323,
+    "version": "1.3",
+    "versionCode": 4,
+    "file": "[Eclipse] WearTransfer v1.3.apk",
+    "sha256": "2b34960f047d2c4508fee55f1790d90045e91c91760ecd18932062ddf51839b0",
+    "size": 3037707,
     "notes": [
-      "Text size setting: up to 145%",
-      "Share to Wear Transfer from other watch apps",
-      "Brighter subtitles"
+      "Switch file types with the bezel",
+      "A short tour on first launch",
+      "Text size: the bezel choice is saved"
     ]
   }
 }
