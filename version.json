@@ -1,6 +1,6 @@
 {
-  "version": "13.4",
-  "notes": "A text size setting on the watch, all updates in one place, a new About page, and layout fixes.",
+  "version": "13.5",
+  "notes": "Swiping quickly between pages no longer closes Wear Record. Plus a text size setting on the watch, all updates in one place, a new About page, and layout fixes.",
   "companion": {
     "version": "13.4",
     "versionCode": 38,
@@ -16,12 +16,13 @@
     ]
   },
   "watch": {
-    "version": "13.4",
-    "versionCode": 31,
-    "file": "[Eclipse] WearRecord v13.4.apk",
-    "sha256": "f4bae1334eb7a2b7a24d22655be7eccb03435ace5382418c5fc53b456c71ffc4",
-    "size": 3472064,
+    "version": "13.5",
+    "versionCode": 32,
+    "file": "[Eclipse] WearRecord v13.5.apk",
+    "sha256": "df9311e92ede445f8d6a67f09cdd68b2fe41ac89e68b4894207150fcfe04f9b6",
+    "size": 3472128,
     "notes": [
+      "Swiping quickly between pages no longer closes the app",
       "Text size setting, from Default to Largest",
       "Brighter subtitles",
       "Menus fit at bigger text sizes",
