@@ -1,16 +1,15 @@
 {
-  "version": "14.2",
-  "notes": "Test round 6: About redesign, one settings style, Wear Transfer Select all, drag to seek, watch volume.",
+  "version": "14.3",
+  "notes": "Test round 7: About and Home fit narrow screens.",
   "companion": {
-    "version": "14.2",
-    "versionCode": 35,
-    "file": "[Eclipse] WearCompanion v14.2-test.apk",
-    "sha256": "3b0f831760ee31a5a0675228c22a4239bb19b528d4d5dee3c41f4d06bb348a94",
-    "size": 2895236,
+    "version": "14.3",
+    "versionCode": 36,
+    "file": "[Eclipse] WearCompanion v14.3-test.apk",
+    "sha256": "865810da2d909770ebec56e693d7b66f30c7be9bcf1ecf26988b7df0a7dd9e8d",
+    "size": 2895240,
     "notes": [
-      "New About: watch info and both apps' last transfers",
-      "Wear Record settings in the same style as Wear Transfer",
-      "Update cards finish by themselves after a watch update"
+      "Long watch names no longer cut off",
+      "About fits narrow screens (like a Fold's cover screen)"
     ]
   },
   "watch": {
