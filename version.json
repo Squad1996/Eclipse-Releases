@@ -1,16 +1,16 @@
 {
-  "version": "14.1",
-  "notes": "Test round 5: updates in one place, Transfers select/remove, Wear Transfer file explorer and ZIP.",
+  "version": "14.2",
+  "notes": "Test round 6: About redesign, one settings style, Wear Transfer Select all, drag to seek, watch volume.",
   "companion": {
-    "version": "14.1",
-    "versionCode": 34,
-    "file": "[Eclipse] WearCompanion v14.1-test.apk",
-    "sha256": "ca3e98af2ddaeb3f867d5fb024479bb8cfca2e6d45d8ef737378ceb7959821cd",
-    "size": 2878856,
+    "version": "14.2",
+    "versionCode": 35,
+    "file": "[Eclipse] WearCompanion v14.2-test.apk",
+    "sha256": "3b0f831760ee31a5a0675228c22a4239bb19b528d4d5dee3c41f4d06bb348a94",
+    "size": 2895236,
     "notes": [
-      "All updates in Settings \u2192 Updates",
-      "Select and remove transfers, filter sent/received",
-      "Copy the All files access command"
+      "New About: watch info and both apps' last transfers",
+      "Wear Record settings in the same style as Wear Transfer",
+      "Update cards finish by themselves after a watch update"
     ]
   },
   "watch": {
@@ -25,15 +25,15 @@
     ]
   },
   "transfer": {
-    "version": "1.4",
-    "versionCode": 5,
-    "file": "[Eclipse] WearTransfer v1.4.apk",
-    "sha256": "48a8874e6c070d3dfd47a9116469b98ec07dc55f4cfa6dc06bed05725e483d86",
+    "version": "1.5",
+    "versionCode": 6,
+    "file": "[Eclipse] WearTransfer v1.5.apk",
+    "sha256": "6097df0766a29934dec27dc5fd4910f2be447a4ae2e4a9f38c747d995e93d6de",
     "size": 3340771,
     "notes": [
-      "File explorer: every folder on the watch",
-      "Open and extract ZIP files",
-      "Seeking works on every video"
+      "Select all when selecting files",
+      "Hold and drag the ring to seek",
+      "Volume controls the watch's media volume"
     ]
   }
 }
