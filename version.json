@@ -1,14 +1,16 @@
 {
-  "version": "13.9",
-  "notes": "Test round 4: fixes for text size and the update popup, Wear Transfer tour and type carousel.",
+  "version": "14.1",
+  "notes": "Test round 5: updates in one place, Transfers select/remove, Wear Transfer file explorer and ZIP.",
   "companion": {
-    "version": "13.9",
-    "versionCode": 32,
-    "file": "[Eclipse] WearCompanion v13.9-test.apk",
-    "sha256": "4e919452c72d17995dc34e517390250ca48a85dc0f83762e86b0dc75d519db3f",
-    "size": 2878984,
+    "version": "14.1",
+    "versionCode": 34,
+    "file": "[Eclipse] WearCompanion v14.1-test.apk",
+    "sha256": "ca3e98af2ddaeb3f867d5fb024479bb8cfca2e6d45d8ef737378ceb7959821cd",
+    "size": 2878856,
     "notes": [
-      "Update popup sits above the gesture bar"
+      "All updates in Settings \u2192 Updates",
+      "Select and remove transfers, filter sent/received",
+      "Copy the All files access command"
     ]
   },
   "watch": {
@@ -23,15 +25,15 @@
     ]
   },
   "transfer": {
-    "version": "1.3",
-    "versionCode": 4,
-    "file": "[Eclipse] WearTransfer v1.3.apk",
-    "sha256": "2b34960f047d2c4508fee55f1790d90045e91c91760ecd18932062ddf51839b0",
-    "size": 3037707,
+    "version": "1.4",
+    "versionCode": 5,
+    "file": "[Eclipse] WearTransfer v1.4.apk",
+    "sha256": "48a8874e6c070d3dfd47a9116469b98ec07dc55f4cfa6dc06bed05725e483d86",
+    "size": 3340771,
     "notes": [
-      "Switch file types with the bezel",
-      "A short tour on first launch",
-      "Text size: the bezel choice is saved"
+      "File explorer: every folder on the watch",
+      "Open and extract ZIP files",
+      "Seeking works on every video"
     ]
   }
 }
