@@ -1,15 +1,15 @@
 {
-  "version": "14.3",
-  "notes": "Test round 7: About and Home fit narrow screens.",
+  "version": "14.4",
+  "notes": "Test round 8: About layout fix.",
   "companion": {
-    "version": "14.3",
-    "versionCode": 36,
-    "file": "[Eclipse] WearCompanion v14.3-test.apk",
-    "sha256": "865810da2d909770ebec56e693d7b66f30c7be9bcf1ecf26988b7df0a7dd9e8d",
-    "size": 2895240,
+    "version": "14.4",
+    "versionCode": 37,
+    "file": "[Eclipse] WearCompanion v14.4-test.apk",
+    "sha256": "3a56ce3cfdaf8787f7402657510d5071f315e7ed5c38e3b74b4f353625d863b9",
+    "size": 2895236,
     "notes": [
-      "Long watch names no longer cut off",
-      "About fits narrow screens (like a Fold's cover screen)"
+      "About: values line up on the right",
+      "Watch status moved next to the title"
     ]
   },
   "watch": {
