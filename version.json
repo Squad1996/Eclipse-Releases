@@ -1,16 +1,31 @@
 {
-  "version": "13.3",
-  "notes": "Getting ready for a new release address, so updates keep working after the GitHub account is renamed.",
+  "version": "13.4",
+  "notes": "A text size setting on the watch, all updates in one place, a new About page, and layout fixes.",
   "companion": {
-    "version": "13.3",
-    "versionCode": 26,
-    "file": "[Eclipse] WearCompanion v13.3.apk",
-    "sha256": "b62acfe68f8516efc3aa8e4376f75736c81869deaf4d52ccd6fd8b30c5708cd7"
+    "version": "13.4",
+    "versionCode": 38,
+    "file": "[Eclipse] WearCompanion v13.4.apk",
+    "sha256": "7aeb480b7bec1405b34f5dda2a7615c54a577dec972915f1fb6f882b7cf20b8b",
+    "size": 2878856,
+    "notes": [
+      "All updates in one place: Settings \u2192 Updates",
+      "New About page with your watch and last recording",
+      "Change the watch's text size from your phone",
+      "Choose where your videos are saved",
+      "Fixes for small and narrow screens"
+    ]
   },
   "watch": {
-    "version": "13.3",
-    "versionCode": 27,
-    "file": "[Eclipse] WearRecord v13.3.apk",
-    "sha256": "7e7b3c878838d64b4f973b9982317e80348fa8edc7741720a312a396122724f2"
+    "version": "13.4",
+    "versionCode": 31,
+    "file": "[Eclipse] WearRecord v13.4.apk",
+    "sha256": "f4bae1334eb7a2b7a24d22655be7eccb03435ace5382418c5fc53b456c71ffc4",
+    "size": 3472064,
+    "notes": [
+      "Text size setting, from Default to Largest",
+      "Brighter subtitles",
+      "Menus fit at bigger text sizes",
+      "Changing Text size with the bezel saves your choice"
+    ]
   }
 }
