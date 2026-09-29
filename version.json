@@ -13,14 +13,16 @@
     ]
   },
   "watch": {
-    "version": "13.6",
-    "versionCode": 30,
-    "file": "[Eclipse] WearRecord v13.6-test.apk",
-    "sha256": "89999226f6ce646ddb985b6b75dc1506a91623b0ef94700caa55a82d8234397f",
-    "size": 3472060,
+    "version": "13.4",
+    "versionCode": 31,
+    "file": "[Eclipse] WearRecord v13.4.apk",
+    "sha256": "f4bae1334eb7a2b7a24d22655be7eccb03435ace5382418c5fc53b456c71ffc4",
+    "size": 3472064,
     "notes": [
-      "Menu notes no longer cut off at bigger text",
-      "Text size: the bezel choice is saved"
+      "Text size setting, from Default to Largest",
+      "Brighter subtitles",
+      "Menus fit at bigger text sizes",
+      "Changing Text size with the bezel saves your choice"
     ]
   },
   "transfer": {
