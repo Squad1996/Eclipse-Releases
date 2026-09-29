@@ -24,8 +24,9 @@ Tested on a Samsung Galaxy Watch8 Classic.
 - Choose where the videos are saved on your phone.
 - Updates for both apps come straight from this page.
 
-## What's new in 13.4
+## What's new in 13.4 and 13.5
 
+- **Wear Record 13.5:** swiping quickly between pages no longer closes the app.
 - **Updates in one place:** the Companion checks for updates when you open it. A banner
   shows when something new is out; install each app from **Settings → Updates**.
 - **New About page:** your watch, battery, Android version, the format of your next
