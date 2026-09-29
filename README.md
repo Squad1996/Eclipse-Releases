@@ -20,7 +20,22 @@ Tested on a Samsung Galaxy Watch8 Classic.
 - Sends videos to your phone while you record, right after, or when you choose.
 - Start a recording from your phone (turn on **Remote recording** in the watch's Settings).
 - On the phone: play, trim, share, and save smaller copies of your videos.
+- Adjustable text size on the watch.
+- Choose where the videos are saved on your phone.
 - Updates for both apps come straight from this page.
+
+## What's new in 13.4
+
+- **Updates in one place:** the Companion checks for updates when you open it. A banner
+  shows when something new is out; install each app from **Settings → Updates**.
+- **New About page:** your watch, battery, Android version, the format of your next
+  recording, and your last synced recording.
+- **Text size** on the watch, from Default to Largest. Change it on the watch or from
+  the Companion.
+- **Save location:** choose where the Companion saves your videos
+  (**Settings → App settings**).
+- Brighter subtitles, menus that fit at bigger text sizes, and layouts that fit small
+  and narrow phone screens.
 
 ## Install
 
@@ -76,9 +91,9 @@ your watch as **Ready**.
 
 ## Updates
 
-- **On the phone:** when a new version is out, the Companion shows *Wear Record
-  update available*. Tap **Update now**. The watch asks you to confirm its update,
-  then the phone asks for the Companion.
+- **On the phone:** the Companion checks for updates each time you open it. When
+  something new is out, a banner appears; tap **View** (or go to **Settings → Updates**)
+  and tap **Install** next to each app. The watch asks you to confirm its update.
 - **On the watch:** **Settings → About → Check for updates**.
 - The first time, Android asks you to allow the app to install updates. Allow it,
   then go back to the app.
