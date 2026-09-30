@@ -1,35 +1,39 @@
 {
-  "version": "14.6",
-  "notes": "Test round 10: one centred logo when unfolded; start prompt in Wear Record.",
+  "version": "14.7",
+  "notes": "Test round 11: player fits unfolded, preview sent files, new watch video player, quieter when closed.",
   "companion": {
-    "version": "14.6",
-    "versionCode": 40,
-    "file": "[Eclipse] WearCompanion v14.6-test.apk",
-    "sha256": "3cfb070581c5387a9f88762304d442d1d9886d14d8dca99a91b80aa70d71431a",
+    "version": "14.7",
+    "versionCode": 41,
+    "file": "[Eclipse] WearCompanion v14.7-test.apk",
+    "sha256": "18e2614758d9cda7158144c4e2d4290b9fc7b8e6f3bd940d65e8f078259b09e3",
     "size": 2911624,
     "notes": [
-      "Unfolded: one Eclipse logo, centred above both panes"
+      "Unfolded: player and file details fit and are centred",
+      "Play, open and share files you sent to the watch",
+      "No watch messages while the Companion is closed"
     ]
   },
   "watch": {
-    "version": "13.6",
-    "versionCode": 33,
-    "file": "[Eclipse] WearRecord v13.6-test.apk",
-    "sha256": "934fd36dabf495626c2e532a4be1f48854331d6a852e70e3de267309f20e5d30",
-    "size": 3472128,
+    "version": "13.7",
+    "versionCode": 34,
+    "file": "[Eclipse] WearRecord v13.7-test.apk",
+    "sha256": "7e9123fe510517336471c45eaf965a08a9e853ca2f6d69f5d8e450e687f93074",
+    "size": 4219706,
     "notes": [
-      "\"Start from phone?\" pops up in the app when it's open",
-      "Sync chip updates right away when changed from the phone"
+      "New video player: exact seeking",
+      "Says so when a video can't play"
     ]
   },
   "transfer": {
-    "version": "1.6",
-    "versionCode": 7,
-    "file": "[Eclipse] WearTransfer v1.6.apk",
-    "sha256": "8e8c9709cee7ac7a27063c5b777817168d717b9c80025bdf4ef831ad12558204",
-    "size": 3340839,
+    "version": "1.7",
+    "versionCode": 8,
+    "file": "[Eclipse] WearTransfer v1.7.apk",
+    "sha256": "08918a2c141c088b0335bb12be83bca95404ccbe4ed443b9b669798cbb50fab0",
+    "size": 4083946,
     "notes": [
-      "Swiping quickly no longer closes the app"
+      "New video player: plays mov, mkv, webm, 3gp and more",
+      "Make a playable copy when a video can't play",
+      "Stops looking for the phone when the screen is off"
     ]
   }
 }
