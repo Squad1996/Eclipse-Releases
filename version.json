@@ -1,30 +1,25 @@
 {
-  "version": "14.5",
-  "notes": "Test round 9: two panes when unfolded, Android 8 fixes.",
+  "version": "14.6",
+  "notes": "Test round 10: one centred logo when unfolded; start prompt in Wear Record.",
   "companion": {
-    "version": "14.5",
-    "versionCode": 39,
-    "file": "[Eclipse] WearCompanion v14.5-test.apk",
-    "sha256": "53fb688bf092e14f43e8d44fbfb91ab1de3baa58fbe2df04cfdcd5434891379e",
+    "version": "14.6",
+    "versionCode": 40,
+    "file": "[Eclipse] WearCompanion v14.6-test.apk",
+    "sha256": "3cfb070581c5387a9f88762304d442d1d9886d14d8dca99a91b80aa70d71431a",
     "size": 2911624,
     "notes": [
-      "Unfolded Fold and tablets: two panes side by side",
-      "Android 8 and 9: fixed update check and thumbnails",
-      "Small screens and large text: nothing gets cut off"
+      "Unfolded: one Eclipse logo, centred above both panes"
     ]
   },
   "watch": {
-    "version": "13.5",
-    "versionCode": 32,
-    "file": "[Eclipse] WearRecord v13.5.apk",
-    "sha256": "df9311e92ede445f8d6a67f09cdd68b2fe41ac89e68b4894207150fcfe04f9b6",
+    "version": "13.6",
+    "versionCode": 33,
+    "file": "[Eclipse] WearRecord v13.6-test.apk",
+    "sha256": "934fd36dabf495626c2e532a4be1f48854331d6a852e70e3de267309f20e5d30",
     "size": 3472128,
     "notes": [
-      "Swiping quickly between pages no longer closes the app",
-      "Text size setting, from Default to Largest",
-      "Brighter subtitles",
-      "Menus fit at bigger text sizes",
-      "Changing Text size with the bezel saves your choice"
+      "\"Start from phone?\" pops up in the app when it's open",
+      "Sync chip updates right away when changed from the phone"
     ]
   },
   "transfer": {
