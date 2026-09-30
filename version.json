@@ -1,15 +1,16 @@
 {
-  "version": "14.4",
-  "notes": "Test round 8: About layout fix.",
+  "version": "14.5",
+  "notes": "Test round 9: two panes when unfolded, Android 8 fixes.",
   "companion": {
-    "version": "14.4",
-    "versionCode": 37,
-    "file": "[Eclipse] WearCompanion v14.4-test.apk",
-    "sha256": "3a56ce3cfdaf8787f7402657510d5071f315e7ed5c38e3b74b4f353625d863b9",
-    "size": 2895236,
+    "version": "14.5",
+    "versionCode": 39,
+    "file": "[Eclipse] WearCompanion v14.5-test.apk",
+    "sha256": "53fb688bf092e14f43e8d44fbfb91ab1de3baa58fbe2df04cfdcd5434891379e",
+    "size": 2911624,
     "notes": [
-      "About: values line up on the right",
-      "Watch status moved next to the title"
+      "Unfolded Fold and tablets: two panes side by side",
+      "Android 8 and 9: fixed update check and thumbnails",
+      "Small screens and large text: nothing gets cut off"
     ]
   },
   "watch": {
@@ -27,15 +28,13 @@
     ]
   },
   "transfer": {
-    "version": "1.5",
-    "versionCode": 6,
-    "file": "[Eclipse] WearTransfer v1.5.apk",
-    "sha256": "6097df0766a29934dec27dc5fd4910f2be447a4ae2e4a9f38c747d995e93d6de",
-    "size": 3340771,
+    "version": "1.6",
+    "versionCode": 7,
+    "file": "[Eclipse] WearTransfer v1.6.apk",
+    "sha256": "8e8c9709cee7ac7a27063c5b777817168d717b9c80025bdf4ef831ad12558204",
+    "size": 3340839,
     "notes": [
-      "Select all when selecting files",
-      "Hold and drag the ring to seek",
-      "Volume controls the watch's media volume"
+      "Swiping quickly no longer closes the app"
     ]
   }
 }
