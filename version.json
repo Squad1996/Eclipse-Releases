@@ -1,39 +1,38 @@
 {
-  "version": "14.7",
-  "notes": "Test round 11: player fits unfolded, preview sent files, new watch video player, quieter when closed.",
+  "version": "14.8",
+  "notes": "Test round 12: rename files, loading ring, short names for picked photos and videos.",
   "companion": {
-    "version": "14.7",
-    "versionCode": 41,
-    "file": "[Eclipse] WearCompanion v14.7-test.apk",
-    "sha256": "18e2614758d9cda7158144c4e2d4290b9fc7b8e6f3bd940d65e8f078259b09e3",
-    "size": 2911624,
+    "version": "14.8",
+    "versionCode": 42,
+    "file": "[Eclipse] WearCompanion v14.8-test.apk",
+    "sha256": "2195399fb0b5df3e6e01aa78d54959991ea0a32ff87f73431fd7cac8de3dea61",
+    "size": 3042696,
     "notes": [
-      "Unfolded: player and file details fit and are centred",
-      "Play, open and share files you sent to the watch",
-      "No watch messages while the Companion is closed"
+      "Rename recordings and received files",
+      "Photos and videos you send get short names, like 30 Sep 18.39.mp4",
+      "Pause button stays while a video loads after seeking"
     ]
   },
   "watch": {
-    "version": "13.7",
-    "versionCode": 34,
-    "file": "[Eclipse] WearRecord v13.7-test.apk",
-    "sha256": "7e9123fe510517336471c45eaf965a08a9e853ca2f6d69f5d8e450e687f93074",
-    "size": 4219706,
+    "version": "13.8",
+    "versionCode": 35,
+    "file": "[Eclipse] WearRecord v13.8-test.apk",
+    "sha256": "c66c68e282d99cabd70a52822ddd8e6138a952153e73723e55e70a2c5f21278f",
+    "size": 4465466,
     "notes": [
-      "New video player: exact seeking",
-      "Says so when a video can't play"
+      "Rename recordings (Options → Rename)",
+      "Pause button stays while a video loads after seeking"
     ]
   },
   "transfer": {
-    "version": "1.7",
-    "versionCode": 8,
-    "file": "[Eclipse] WearTransfer v1.7.apk",
-    "sha256": "08918a2c141c088b0335bb12be83bca95404ccbe4ed443b9b669798cbb50fab0",
-    "size": 4083946,
+    "version": "1.8",
+    "versionCode": 9,
+    "file": "[Eclipse] WearTransfer v1.8.apk",
+    "sha256": "2af7188ee12e33c400f89b7a7a49f3f16c80457e602cf173cb557aafa9534e53",
+    "size": 4100330,
     "notes": [
-      "New video player: plays mov, mkv, webm, 3gp and more",
-      "Make a playable copy when a video can't play",
-      "Stops looking for the phone when the screen is off"
+      "Rename files (Options → Rename)",
+      "Pause button stays while a video loads after seeking"
     ]
   }
 }
