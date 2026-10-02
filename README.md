@@ -2,14 +2,15 @@
 
 # Eclipse Wear
 
-Record your Wear OS watch screen and get the videos on your phone.
+Record your Wear OS watch screen, and move files between your watch and phone.
 
-Two apps that work together:
+Three apps that work together:
 
 | App | Goes on | File |
 |---|---|---|
 | **Eclipse Wear Record** | your watch (Wear OS 3 or newer) | `[Eclipse] WearRecord v….apk` |
 | **Eclipse Wear Companion** | your phone (Android 8 or newer) | `[Eclipse] WearCompanion v….apk` |
+| **Eclipse Wear Transfer** | your watch (Wear OS 3 or newer) | `[Eclipse] WearTransfer v….apk` |
 
 Tested on a Samsung Galaxy Watch8 Classic.
 
@@ -22,26 +23,26 @@ Tested on a Samsung Galaxy Watch8 Classic.
 - On the phone: play, trim, share, and save smaller copies of your videos.
 - Adjustable text size on the watch.
 - Choose where the videos are saved on your phone.
-- Updates for both apps come straight from this page.
+- Wear Transfer: send photos, videos, apps, watch faces and any file between watch and phone;
+  open the **Transfers** tab in the Companion.
+- Updates for all apps come straight from this page.
 
-## What's new in 13.4 and 13.5
+## What's new
 
-- **Wear Record 13.5:** swiping quickly between pages no longer closes the app.
-- **Updates in one place:** the Companion checks for updates when you open it. A banner
-  shows when something new is out; install each app from **Settings → Updates**.
-- **New About page:** your watch, battery, Android version, the format of your next
-  recording, and your last synced recording.
-- **Text size** on the watch, from Default to Largest. Change it on the watch or from
-  the Companion.
-- **Save location:** choose where the Companion saves your videos
-  (**Settings → App settings**).
-- Brighter subtitles, menus that fit at bigger text sizes, and layouts that fit small
-  and narrow phone screens.
+- **Eclipse Wear Transfer is here:** send photos, videos, apps and any file between your
+  watch and phone. Install apps and watch faces sent from your phone, and browse, play,
+  rename and share files on the watch.
+- **Wear Companion 15.0:** a Transfers tab for Wear Transfer; rename, trim and share
+  recordings, and Delete asks first; two panes on unfolded foldables; Wear Record
+  settings match the watch, with sizes per preset; the same sizes, dates and look everywhere.
+- **Wear Record 14.0:** a new player with volume and exact seeking; rename recordings and
+  share them to watch apps; *Start from phone?* also shows inside the app; the same look
+  and settings order as the Companion.
 
 ## Install
 
-Install the Companion first, then Wear Record. Always use the files from this page,
-because both apps must come from the same place to work together.
+Install the Companion first, then Wear Record and Wear Transfer. Always use the files
+from this page, because the apps must come from the same place to work together.
 
 ### 1. Phone: Eclipse Wear Companion
 
@@ -84,7 +85,12 @@ adb install "[Eclipse] WearRecord v….apk"   # the file you downloaded
 
 When it's installed, turn **Wireless debugging** off again to save battery.
 
-### 3. First start
+### 3. Watch: Eclipse Wear Transfer
+
+Install it the same way as Wear Record (Bugjaeger or adb), with the
+`[Eclipse] WearTransfer v….apk` file. It connects by itself while the Companion is open.
+
+### 4. First start
 
 Open **Wear Record** on the watch. A short tour shows how it works and asks
 for the permissions it needs. Then open the Companion on your phone: it shows
@@ -95,7 +101,7 @@ your watch as **Ready**.
 - **On the phone:** the Companion checks for updates each time you open it. When
   something new is out, a banner appears; tap **View** (or go to **Settings → Updates**)
   and tap **Install** next to each app. The watch asks you to confirm its update.
-- **On the watch:** **Settings → About → Check for updates**.
+- **On the watch:** **Settings → About → Check for updates** (in Wear Record and in Wear Transfer).
 - The first time, Android asks you to allow the app to install updates. Allow it,
   then go back to the app.
 
@@ -109,12 +115,12 @@ your watch as **Ready**.
 ## Privacy
 
 No accounts, no ads, no tracking. Your videos stay on your watch and phone and
-travel between them over the Wear OS connection. The apps only go online to
-check this page for updates.
+travel between them over the Wear OS connection. Files sent with Wear Transfer go
+directly over Bluetooth. The apps only go online to check this page for updates.
 
 ## Check the files
 
-Both apps are signed with the same key. Certificate SHA-256:
+All apps are signed with the same key. Certificate SHA-256:
 
 ```
 77:5E:06:92:10:BC:40:4B:8B:AE:56:62:B1:7C:3D:5B:66:13:95:38:82:5C:40:C4:A6:5A:B5:B3:CA:04:97:F0
