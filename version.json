@@ -1,32 +1,31 @@
 {
-  "version": "13.5",
-  "notes": "Swiping quickly between pages no longer closes Wear Record. Plus a text size setting on the watch, all updates in one place, a new About page, and layout fixes.",
+  "version": "15.0",
+  "notes": "Eclipse Wear Transfer is here: send photos, videos, apps and any file between your watch and phone. Plus rename, a new player, and one look in every app.",
   "companion": {
-    "version": "13.4",
-    "versionCode": 38,
-    "file": "[Eclipse] WearCompanion v13.4.apk",
-    "sha256": "7aeb480b7bec1405b34f5dda2a7615c54a577dec972915f1fb6f882b7cf20b8b",
-    "size": 2878856,
+    "version": "15.0",
+    "versionCode": 44,
+    "file": "[Eclipse] WearCompanion v15.0.apk",
+    "sha256": "5fc0cda37dd205a301fb8a65bcb982c4d3a2deb8bb618a615ea13731536b506a",
+    "size": 3055792,
     "notes": [
-      "All updates in one place: Settings \u2192 Updates",
-      "New About page with your watch and last recording",
-      "Change the watch's text size from your phone",
-      "Choose where your videos are saved",
-      "Fixes for small and narrow screens"
+      "New: Transfers tab for Eclipse Wear Transfer",
+      "Rename, trim and share recordings; Delete asks first",
+      "Two panes on unfolded foldables",
+      "Wear Record settings match the watch, with sizes per preset",
+      "Same sizes, dates and look everywhere"
     ]
   },
   "watch": {
-    "version": "13.5",
-    "versionCode": 32,
-    "file": "[Eclipse] WearRecord v13.5.apk",
-    "sha256": "df9311e92ede445f8d6a67f09cdd68b2fe41ac89e68b4894207150fcfe04f9b6",
-    "size": 3472128,
+    "version": "14.0",
+    "versionCode": 37,
+    "file": "[Eclipse] WearRecord v14.0.apk",
+    "sha256": "d978d616a842db4e6462b55e66e8384b70f6c8db0c046f9d7d5e8d59f7492c89",
+    "size": 4506482,
     "notes": [
-      "Swiping quickly between pages no longer closes the app",
-      "Text size setting, from Default to Largest",
-      "Brighter subtitles",
-      "Menus fit at bigger text sizes",
-      "Changing Text size with the bezel saves your choice"
+      "New player with volume and exact seeking",
+      "Rename recordings and share them to watch apps",
+      "\"Start from phone?\" also shows inside the app",
+      "Same look and settings order as the Companion"
     ]
   }
 }
