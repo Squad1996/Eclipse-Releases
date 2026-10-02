@@ -1,40 +1,43 @@
 {
-  "version": "14.9",
-  "notes": "Test round 13: fixes for all 71 points of the emulator test (bugs and consistency).",
+  "version": "15.0",
+  "notes": "Eclipse Wear Transfer is here: send photos, videos, apps and any file between your watch and phone. Plus rename, a new player, and one look in every app.",
   "companion": {
-    "version": "14.9",
-    "versionCode": 43,
-    "file": "[Eclipse] WearCompanion v14.9-test.apk",
-    "sha256": "7b1dee1d1c144e2fb3a922a4987d1d2e9b29a659c56f66acc5194d2410b7c4de",
+    "version": "15.0",
+    "versionCode": 44,
+    "file": "[Eclipse] WearCompanion v15.0.apk",
+    "sha256": "5fc0cda37dd205a301fb8a65bcb982c4d3a2deb8bb618a615ea13731536b506a",
     "size": 3055792,
     "notes": [
-      "Delete asks first; all dialogs in the gold style",
-      "Same names, sizes, dates and menus everywhere; Back goes to Home",
-      "Wear Record settings match the watch, with sizes per preset"
+      "New: Transfers tab for Eclipse Wear Transfer",
+      "Rename, trim and share recordings; Delete asks first",
+      "Two panes on unfolded foldables",
+      "Wear Record settings match the watch, with sizes per preset",
+      "Same sizes, dates and look everywhere"
     ]
   },
   "watch": {
-    "version": "13.9",
-    "versionCode": 36,
-    "file": "[Eclipse] WearRecord v13.9-test.apk",
-    "sha256": "0f9f4658cd79cb3be57a03b594dc2a5a7e90caebee75457e81027c7240ee804c",
-    "size": 4506486,
+    "version": "14.0",
+    "versionCode": 37,
+    "file": "[Eclipse] WearRecord v14.0.apk",
+    "sha256": "d978d616a842db4e6462b55e66e8384b70f6c8db0c046f9d7d5e8d59f7492c89",
+    "size": 4506482,
     "notes": [
-      "Player, menus, File info and selecting look like Wear Transfer",
-      "Share lists watch apps; Rename selects the whole name",
-      "Settings in the Companion's order; Round frame is a switch"
+      "New player with volume and exact seeking",
+      "Rename recordings and share them to watch apps",
+      "\"Start from phone?\" also shows inside the app",
+      "Same look and settings order as the Companion"
     ]
   },
   "transfer": {
-    "version": "1.9",
-    "versionCode": 10,
-    "file": "[Eclipse] WearTransfer v1.9.apk",
-    "sha256": "c9cf50d3d289a6fc58903d669b94b4af682f73ad847545bce7b6a299e9a8c912",
+    "version": "2.0",
+    "versionCode": 11,
+    "file": "[Eclipse] WearTransfer v2.0.apk",
+    "sha256": "46d3fcdc44424a820d22e34f4a5cdb75f4f8956c30dd4feb0a479a3824bb4a6f",
     "size": 4133134,
     "notes": [
-      "Main menu, player and File info look like Wear Record",
-      "How to use has topics; Back after Send to phone goes to the Main menu",
-      "Share and Rename fixed; Smaller is about half the size"
+      "Send files from your watch to your phone, and back",
+      "Install apps and watch faces sent from your phone",
+      "Browse, play, rename and share files on the watch"
     ]
   }
 }
