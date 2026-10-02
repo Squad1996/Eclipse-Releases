@@ -117,11 +117,3 @@ your watch as **Ready**.
 No accounts, no ads, no tracking. Your videos stay on your watch and phone and
 travel between them over the Wear OS connection. Files sent with Wear Transfer go
 directly over Bluetooth. The apps only go online to check this page for updates.
-
-## Check the files
-
-All apps are signed with the same key. Certificate SHA-256:
-
-```
-77:5E:06:92:10:BC:40:4B:8B:AE:56:62:B1:7C:3D:5B:66:13:95:38:82:5C:40:C4:A6:5A:B5:B3:CA:04:97:F0
-```
