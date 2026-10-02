@@ -1,38 +1,40 @@
 {
-  "version": "14.8",
-  "notes": "Test round 12: rename files, loading ring, short names for picked photos and videos.",
+  "version": "14.9",
+  "notes": "Test round 13: fixes for all 71 points of the emulator test (bugs and consistency).",
   "companion": {
-    "version": "14.8",
-    "versionCode": 42,
-    "file": "[Eclipse] WearCompanion v14.8-test.apk",
-    "sha256": "2195399fb0b5df3e6e01aa78d54959991ea0a32ff87f73431fd7cac8de3dea61",
-    "size": 3042696,
+    "version": "14.9",
+    "versionCode": 43,
+    "file": "[Eclipse] WearCompanion v14.9-test.apk",
+    "sha256": "7b1dee1d1c144e2fb3a922a4987d1d2e9b29a659c56f66acc5194d2410b7c4de",
+    "size": 3055792,
     "notes": [
-      "Rename recordings and received files",
-      "Photos and videos you send get short names, like 30 Sep 18.39.mp4",
-      "Pause button stays while a video loads after seeking"
+      "Delete asks first; all dialogs in the gold style",
+      "Same names, sizes, dates and menus everywhere; Back goes to Home",
+      "Wear Record settings match the watch, with sizes per preset"
     ]
   },
   "watch": {
-    "version": "13.8",
-    "versionCode": 35,
-    "file": "[Eclipse] WearRecord v13.8-test.apk",
-    "sha256": "c66c68e282d99cabd70a52822ddd8e6138a952153e73723e55e70a2c5f21278f",
-    "size": 4465466,
+    "version": "13.9",
+    "versionCode": 36,
+    "file": "[Eclipse] WearRecord v13.9-test.apk",
+    "sha256": "0f9f4658cd79cb3be57a03b594dc2a5a7e90caebee75457e81027c7240ee804c",
+    "size": 4506486,
     "notes": [
-      "Rename recordings (Options → Rename)",
-      "Pause button stays while a video loads after seeking"
+      "Player, menus, File info and selecting look like Wear Transfer",
+      "Share lists watch apps; Rename selects the whole name",
+      "Settings in the Companion's order; Round frame is a switch"
     ]
   },
   "transfer": {
-    "version": "1.8",
-    "versionCode": 9,
-    "file": "[Eclipse] WearTransfer v1.8.apk",
-    "sha256": "2af7188ee12e33c400f89b7a7a49f3f16c80457e602cf173cb557aafa9534e53",
-    "size": 4100330,
+    "version": "1.9",
+    "versionCode": 10,
+    "file": "[Eclipse] WearTransfer v1.9.apk",
+    "sha256": "c9cf50d3d289a6fc58903d669b94b4af682f73ad847545bce7b6a299e9a8c912",
+    "size": 4133134,
     "notes": [
-      "Rename files (Options → Rename)",
-      "Pause button stays while a video loads after seeking"
+      "Main menu, player and File info look like Wear Record",
+      "How to use has topics; Back after Send to phone goes to the Main menu",
+      "Share and Rename fixed; Smaller is about half the size"
     ]
   }
 }
