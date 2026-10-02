@@ -27,5 +27,17 @@
       "\"Start from phone?\" also shows inside the app",
       "Same look and settings order as the Companion"
     ]
+  },
+  "transfer": {
+    "version": "2.0",
+    "versionCode": 11,
+    "file": "[Eclipse] WearTransfer v2.0.apk",
+    "sha256": "46d3fcdc44424a820d22e34f4a5cdb75f4f8956c30dd4feb0a479a3824bb4a6f",
+    "size": 4133134,
+    "notes": [
+      "Send files from your watch to your phone, and back",
+      "Install apps and watch faces sent from your phone",
+      "Browse, play, rename and share files on the watch"
+    ]
   }
 }
