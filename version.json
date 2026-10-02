@@ -1,18 +1,16 @@
 {
-  "version": "15.0",
+  "version": "15.1",
   "notes": "Eclipse Wear Transfer is here: send photos, videos, apps and any file between your watch and phone. Plus rename, a new player, and one look in every app.",
   "companion": {
-    "version": "15.0",
-    "versionCode": 44,
-    "file": "[Eclipse] WearCompanion v15.0.apk",
-    "sha256": "5fc0cda37dd205a301fb8a65bcb982c4d3a2deb8bb618a615ea13731536b506a",
+    "version": "15.1",
+    "versionCode": 46,
+    "file": "[Eclipse] WearCompanion v15.1.apk",
+    "sha256": "3e30f3cde53875bc29a4d7de5b75e3daea60a738153fd4a208109b52435c7c50",
     "size": 3055792,
     "notes": [
-      "New: Transfers tab for Eclipse Wear Transfer",
-      "Rename, trim and share recordings; Delete asks first",
-      "Two panes on unfolded foldables",
-      "Wear Record settings match the watch, with sizes per preset",
-      "Same sizes, dates and look everywhere"
+      "Repair for seeking keeps the video's quality",
+      "A video you're watching is never repaired underneath you",
+      "A repair only replaces the original after it checks out"
     ]
   },
   "watch": {
