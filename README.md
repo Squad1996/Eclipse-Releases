@@ -7,9 +7,9 @@ Record your Wear OS watch screen, and move files between your watch and phone.
 Three apps that work together:
 | App | Goes on | Download |
 |---|---|---|
-| **Eclipse Wear Record** | your watch (Wear OS 3 or newer) | [`[Eclipse] WearRecord v14.0.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearRecord%20v14.0.apk) |
-| **Eclipse Wear Companion** | your phone (Android 8 or newer) | [`[Eclipse] WearCompanion v15.1.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearCompanion%20v15.1.apk) |
-| **Eclipse Wear Transfer** | your watch (Wear OS 3 or newer) | [`[Eclipse] WearTransfer v2.0.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearTransfer%20v2.0.apk) |
+| **Eclipse Wear Record** | your watch (Wear OS 3 or newer) | [`[Eclipse] WearRecord v14.1.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearRecord%20v14.1.apk) |
+| **Eclipse Wear Companion** | your phone (Android 8 or newer) | [`[Eclipse] WearCompanion v15.2.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearCompanion%20v15.2.apk) |
+| **Eclipse Wear Transfer** | your watch (Wear OS 3 or newer) | [`[Eclipse] WearTransfer v2.1.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearTransfer%20v2.1.apk) |
 
 
 Tested on a Samsung Galaxy Watch8 Classic.
@@ -21,7 +21,7 @@ Tested on a Samsung Galaxy Watch8 Classic.
 - Sends videos to your phone while you record, right after, or when you choose.
 - Start a recording from your phone (turn on **Remote recording** in the watch's Settings).
 - On the phone: play, trim, share, and save smaller copies of your videos.
-- Adjustable text size on the watch.
+- Adjustable text size on the watch, up to Huge.
 - Choose where the videos are saved on your phone.
 - Wear Transfer: send photos, videos, apps, watch faces and any file between watch and phone;
   open the **Transfers** tab in the Companion.
@@ -29,6 +29,9 @@ Tested on a Samsung Galaxy Watch8 Classic.
 
 ## What's new
 
+- **Bigger text:** Wear Record 14.1 and Wear Transfer 2.1 add a fifth text size, **Huge**, and
+  Largest now really grows on watches with a bigger font. Wear Transfer's rows are a bit
+  bigger too. **Wear Companion 15.2** can set it from your phone.
 - **Eclipse Wear Transfer is here:** send photos, videos, apps and any file between your
   watch and phone. Install apps and watch faces sent from your phone, and browse, play,
   rename and share files on the watch.
