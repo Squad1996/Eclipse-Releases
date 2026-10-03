@@ -2,40 +2,36 @@
   "version": "15.1",
   "notes": "Test: repair for seeking keeps the quality and no longer breaks a video you're watching.",
   "companion": {
-    "version": "15.1",
-    "versionCode": 45,
-    "file": "[Eclipse] WearCompanion v15.1-test.apk",
-    "sha256": "1b2d0b6e48511e667e8015c7dd1e6a23b78767b681ad07d6a35093ced8a2abc9",
+    "version": "15.2",
+    "versionCode": 47,
+    "file": "[Eclipse] WearCompanion v15.2.apk",
+    "sha256": "701a0367e0972cb0959fc598d258cce453fb9ce7196c439be32918f23a5178fd",
     "size": 3055792,
     "notes": [
-      "Repair for seeking keeps the video's quality",
-      "A video you're watching is never repaired underneath you",
-      "A repair only replaces the original after it checks out"
+      "Set the new Huge text size for Wear Record and Wear Transfer from your phone"
     ]
   },
   "watch": {
-    "version": "14.0",
-    "versionCode": 37,
-    "file": "[Eclipse] WearRecord v14.0.apk",
-    "sha256": "d978d616a842db4e6462b55e66e8384b70f6c8db0c046f9d7d5e8d59f7492c89",
+    "version": "14.1",
+    "versionCode": 38,
+    "file": "[Eclipse] WearRecord v14.1.apk",
+    "sha256": "2a8c21362a935af1dfddf7c4453ac3921ea5980f1960edd28b010fd5af278ac8",
     "size": 4506482,
     "notes": [
-      "New player with volume and exact seeking",
-      "Rename recordings and share them to watch apps",
-      "\"Start from phone?\" also shows inside the app",
-      "Same look and settings order as the Companion"
+      "New Huge text size (Settings → Text size)",
+      "Largest and Huge now grow on watches with a bigger font"
     ]
   },
   "transfer": {
-    "version": "2.0",
-    "versionCode": 11,
-    "file": "[Eclipse] WearTransfer v2.0.apk",
-    "sha256": "46d3fcdc44424a820d22e34f4a5cdb75f4f8956c30dd4feb0a479a3824bb4a6f",
+    "version": "2.1",
+    "versionCode": 12,
+    "file": "[Eclipse] WearTransfer v2.1.apk",
+    "sha256": "99d2348fea03b1a9262f8843d621077a455d82ae3acfaf3794a6d6e5b6eb4c2a",
     "size": 4133134,
     "notes": [
-      "Send files from your watch to your phone, and back",
-      "Install apps and watch faces sent from your phone",
-      "Browse, play, rename and share files on the watch"
+      "New Huge text size (Settings → Text size)",
+      "Bigger rows in the menus and file lists",
+      "Largest and Huge now grow on watches with a bigger font"
     ]
   },
   "simpleadb": {
