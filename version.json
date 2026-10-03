@@ -39,15 +39,14 @@
     ]
   },
   "simpleadb": {
-    "version": "1.4",
-    "versionCode": 5,
-    "file": "[Eclipse] SimpleADB v1.4-test.apk",
-    "sha256": "50de6a19c9d2b6f1479b7c7770f9ad260f3bdd7c32019449ee0a7013c0bbc846",
-    "size": 11325365,
+    "version": "1.5",
+    "versionCode": 6,
+    "file": "[Eclipse] SimpleADB v1.5-test.apk",
+    "sha256": "4cf3c860f4affeedea352ac17f5592efad89665abba95e7f5d84a87a6746fc81",
+    "size": 12302551,
     "notes": [
-      "Keep awake while connected",
-      "Live screen: watch and control the device, and record it",
-      "Preloaded Shell commands in groups"
+      "Live screen: bigger image lower on the screen, Home and Back under it",
+      "Recordings: play, share, rename and delete your videos and screenshots"
     ]
   }
 }
