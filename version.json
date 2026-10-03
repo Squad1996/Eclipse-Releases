@@ -39,15 +39,14 @@
     ]
   },
   "simpleadb": {
-    "version": "2.0",
-    "versionCode": 11,
-    "file": "[Eclipse] SimpleADB v2.0-test.apk",
-    "sha256": "ffa554ca0c87a436239a5756be318e0952b937acf35898e4297d95bb14effc6b",
-    "size": 12394323,
+    "version": "2.1",
+    "versionCode": 12,
+    "file": "[Eclipse] SimpleADB v2.1-test.apk",
+    "sha256": "20cb2ae200c493f89332236b5c9c6f1b05bca7eb748c315c5217a34da0dd0e4e",
+    "size": 12410707,
     "notes": [
-      "Quick options: 20 tiles, Fix it is now part of them",
-      "New: NFC, Haptics, Volume, Stay on while charging, Auto brightness",
-      "One tap: Free up space, Close background apps, Animations back on and more"
+      "Swipe left and right between the tabs",
+      "Refresh button on every screen: reconnects and reloads"
     ]
   }
 }
