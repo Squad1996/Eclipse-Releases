@@ -39,15 +39,15 @@
     ]
   },
   "simpleadb": {
-    "version": "1.9",
-    "versionCode": 10,
-    "file": "[Eclipse] SimpleADB v1.9-test.apk",
-    "sha256": "3f405d28feaf83c09d980c6c4e4580214366a977428343a3f83f41b7af1bf95b",
-    "size": 12377939,
+    "version": "2.0",
+    "versionCode": 11,
+    "file": "[Eclipse] SimpleADB v2.0-test.apk",
+    "sha256": "ffa554ca0c87a436239a5756be318e0952b937acf35898e4297d95bb14effc6b",
+    "size": 12394323,
     "notes": [
-      "Apps show their real names and icons",
-      "Keep awake now keeps the watch screen on",
-      "Live screen no longer lags after switching quality"
+      "Quick options: 20 tiles, Fix it is now part of them",
+      "New: NFC, Haptics, Volume, Stay on while charging, Auto brightness",
+      "One tap: Free up space, Close background apps, Animations back on and more"
     ]
   }
 }
