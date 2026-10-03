@@ -39,14 +39,21 @@
     ]
   },
   "simpleadb": {
-    "version": "2.1",
-    "versionCode": 12,
-    "file": "[Eclipse] SimpleADB v2.1-test.apk",
-    "sha256": "20cb2ae200c493f89332236b5c9c6f1b05bca7eb748c315c5217a34da0dd0e4e",
-    "size": 12410707,
+    "version": "2.2",
+    "versionCode": 13,
+    "file": "[Eclipse] SimpleADB v2.2-test.apk",
+    "sha256": "fd0cd44c45ee739ca2d2512a9fc92026b172c973a3087c926ca7688ec37bd35b",
+    "size": 12477055,
     "notes": [
-      "Swipe left and right between the tabs",
-      "Refresh button on every screen: reconnects and reloads"
+      "Live screen: buttons above the image, Type, Screen off and a bezel wheel",
+      "App details: info, back up APK, clear cache, disable, uninstall",
+      "Disabled apps filter, more app icons load",
+      "Install several APKs at once, including split APKs (.apks, .xapk)",
+      "Files: copy, move, paste and open on the watch",
+      "Record on the watch, Watch faces, Display and text size",
+      "Screenshot frames: round or watch bezel",
+      "Tools: Battery and performance, Routines, Remote, Shortcuts",
+      "Logcat buttons match"
     ]
   }
 }
