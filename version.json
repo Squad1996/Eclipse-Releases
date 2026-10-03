@@ -39,14 +39,14 @@
     ]
   },
   "simpleadb": {
-    "version": "1.5",
-    "versionCode": 6,
-    "file": "[Eclipse] SimpleADB v1.5-test.apk",
-    "sha256": "4cf3c860f4affeedea352ac17f5592efad89665abba95e7f5d84a87a6746fc81",
+    "version": "1.6",
+    "versionCode": 7,
+    "file": "[Eclipse] SimpleADB v1.6-test.apk",
+    "sha256": "36c918e3e3ed840e953e0c7401097648b47bd7ebba37f3f6010a289da73402da",
     "size": 12302551,
     "notes": [
-      "Live screen: bigger image lower on the screen, Home and Back under it",
-      "Recordings: play, share, rename and delete your videos and screenshots"
+      "Live screen recordings are saved again",
+      "Tool tiles on the Device page are all the same height"
     ]
   }
 }
