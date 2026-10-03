@@ -35,20 +35,13 @@
     ]
   },
   "simpleadb": {
-    "version": "2.3",
-    "versionCode": 14,
-    "file": "[Eclipse] SimpleADB v2.3-test.apk",
-    "sha256": "6f148c0577b3444a975a0d74e69af1a1470f7fbfc0809a69ea0be64f5707bf7a",
+    "version": "2.4",
+    "versionCode": 15,
+    "file": "[Eclipse] SimpleADB v2.4-test.apk",
+    "sha256": "771664c859f0c6433cda049e2b95a008d615082df07499d4890dd720d82d95d4",
     "size": 12493439,
     "notes": [
-      "Refresh button no longer gets stuck; says when the watch does not answer",
-      "Watch tab: Switches and One tap in separate groups, one outline style",
-      "New switches: Airplane mode, Location, Pointer location, Mobile data (LTE), Always-on screen, Stable connection",
-      "New one-tap: Restart system UI, Restart Wear Record, Restart Wear Transfer",
-      "Logcat: matching buttons, Hide system noise",
-      "Shell: output keeps its columns (scroll sideways), Wrap switch",
-      "Apps: \"This can take a while\" while loading",
-      "Looks for updates each time the app opens"
+      "New switch: Raise wrist to wake (Samsung watches), turns it on or off and shows the real state"
     ]
   }
 }
