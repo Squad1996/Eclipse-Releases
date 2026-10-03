@@ -39,14 +39,14 @@
     ]
   },
   "simpleadb": {
-    "version": "1.6",
-    "versionCode": 7,
-    "file": "[Eclipse] SimpleADB v1.6-test.apk",
-    "sha256": "36c918e3e3ed840e953e0c7401097648b47bd7ebba37f3f6010a289da73402da",
-    "size": 12302551,
+    "version": "1.7",
+    "versionCode": 8,
+    "file": "[Eclipse] SimpleADB v1.7-test.apk",
+    "sha256": "952513939924a5aa0049e008a10019a800762081a8afe9f1076b0e3e825dcc02",
+    "size": 12318935,
     "notes": [
-      "Live screen recordings are saved again",
-      "Tool tiles on the Device page are all the same height"
+      "New Settings: version card, four tiles, reset buttons",
+      "Find tilt to wake: switch it once on the watch and Simple ADB learns it"
     ]
   }
 }
