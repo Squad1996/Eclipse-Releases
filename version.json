@@ -37,5 +37,17 @@
       "Install apps and watch faces sent from your phone",
       "Browse, play, rename and share files on the watch"
     ]
+  },
+  "simpleadb": {
+    "version": "1.4",
+    "versionCode": 5,
+    "file": "[Eclipse] SimpleADB v1.4-test.apk",
+    "sha256": "50de6a19c9d2b6f1479b7c7770f9ad260f3bdd7c32019449ee0a7013c0bbc846",
+    "size": 11325365,
+    "notes": [
+      "Keep awake while connected",
+      "Live screen: watch and control the device, and record it",
+      "Preloaded Shell commands in groups"
+    ]
   }
 }
