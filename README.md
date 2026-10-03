@@ -8,7 +8,7 @@ Three apps that work together:
 | App | Goes on | Download |
 |---|---|---|
 | **Eclipse Wear Record** | your watch (Wear OS 3 or newer) | [`[Eclipse] WearRecord v14.0.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearRecord%20v14.0.apk) |
-| **Eclipse Wear Companion** | your phone (Android 8 or newer) | [`[Eclipse] WearCompanion v15.0.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearCompanion%20v15.0.apk) |
+| **Eclipse Wear Companion** | your phone (Android 8 or newer) | [`[Eclipse] WearCompanion v15.1.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearCompanion%20v15.1.apk) |
 | **Eclipse Wear Transfer** | your watch (Wear OS 3 or newer) | [`[Eclipse] WearTransfer v2.0.apk`](https://github.com/Squad1996/Eclipse-Releases/raw/main/%5BEclipse%5D%20WearTransfer%20v2.0.apk) |
 
 
