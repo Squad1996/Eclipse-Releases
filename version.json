@@ -39,15 +39,15 @@
     ]
   },
   "simpleadb": {
-    "version": "1.8",
-    "versionCode": 9,
-    "file": "[Eclipse] SimpleADB v1.8-test.apk",
-    "sha256": "6aacec1852539724a7e0f293c59a8b3aa778813aba6c538fc83b54b9a0afadf9",
-    "size": 12377007,
+    "version": "1.9",
+    "versionCode": 10,
+    "file": "[Eclipse] SimpleADB v1.9-test.apk",
+    "sha256": "3f405d28feaf83c09d980c6c4e4580214366a977428343a3f83f41b7af1bf95b",
+    "size": 12377939,
     "notes": [
-      "New layout: Watch, Screen, Apps, Files and Tools tabs",
-      "Quick switches and Fix it on the Watch tab",
-      "New: Files and Logcat"
+      "Apps show their real names and icons",
+      "Keep awake now keeps the watch screen on",
+      "Live screen no longer lags after switching quality"
     ]
   }
 }
