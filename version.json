@@ -35,13 +35,17 @@
     ]
   },
   "simpleadb": {
-    "version": "2.4",
-    "versionCode": 15,
-    "file": "[Eclipse] SimpleADB v2.4-test.apk",
-    "sha256": "771664c859f0c6433cda049e2b95a008d615082df07499d4890dd720d82d95d4",
-    "size": 12493439,
+    "version": "2.5",
+    "versionCode": 16,
+    "file": "[Eclipse] SimpleADB v2.5-test.apk",
+    "sha256": "66fb3d67b3dcbc5550f77b21be9e7efb7ad10adb16ccee1375f7ff226c6ee04c",
+    "size": 12509823,
     "notes": [
-      "New switch: Raise wrist to wake (Samsung watches), turns it on or off and shows the real state"
+      "Watch tab redesigned: battery ring and live numbers, Stable connection as a recommended card, four Favourites you choose, group pages (Connection, Display, Sound & feel, Power, Fix it)",
+      "Live screen: status bar, Watch now / Phone now card, touch bezel ring around the watch, Recents button, phone mode",
+      "Keep awake also turns Raise wrist to wake off, and puts it back",
+      "Shell: the Run button no longer gets stuck on Stop",
+      "All tiles on the Watch tab are the same size"
     ]
   }
 }
