@@ -35,19 +35,14 @@
     ]
   },
   "simpleadb": {
-    "version": "2.5.1",
-    "versionCode": 17,
-    "file": "[Eclipse] SimpleADB v2.5.1-test.apk",
-    "sha256": "dbd56820781b0bdc56d9ed1e981e71f5c64a535e7ee2399500726d5b8fb83484",
-    "size": 12509855,
+    "version": "2.6",
+    "versionCode": 18,
+    "file": "[Eclipse] SimpleADB v2.6-test.apk",
+    "sha256": "156b7db05e4c8f83d62c6ca48ed5d167fd19f8812b2870b168266ea7ae46a979",
+    "size": 12509859,
     "notes": [
-      "Fixes the tab slide that could get stuck half-way after quick taps",
-      "Fewer freezes: connection checks no longer block the screen, and the watch gets at most three commands at once",
-      "Live screen: the bezel ring turns the right way, buzzes on every click and runs at half the speed; the click counter is gone",
-      "Live screen: no Recents button on the watch controls (phones keep it)",
-      "Favourite tiles show their full state text",
-      "Settings shows why the app last stopped and records freezes",
-      "Stable connection keeps Wireless debugging on, and a reconnect no longer tries port 5555 by mistake"
+      "New switch (Connection): Keep Wi-Fi on. An experiment: stops Wear OS from switching the watch's Wi-Fi off by itself",
+      "Keep awake also switches off 'lowering the wrist puts the watch to sleep', and puts it back only if it was on"
     ]
   }
 }
