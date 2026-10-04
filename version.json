@@ -35,14 +35,15 @@
     ]
   },
   "simpleadb": {
-    "version": "2.6",
-    "versionCode": 18,
-    "file": "[Eclipse] SimpleADB v2.6-test.apk",
-    "sha256": "156b7db05e4c8f83d62c6ca48ed5d167fd19f8812b2870b168266ea7ae46a979",
-    "size": 12509859,
+    "version": "2.7",
+    "versionCode": 19,
+    "file": "[Eclipse] SimpleADB v2.7-test.apk",
+    "sha256": "427da36362c74ee1b63aa21ab7a67e51abaaea079f2346e87f79257af4f48a08",
+    "size": 13157622,
     "notes": [
-      "New switch (Connection): Keep Wi-Fi on. An experiment: stops Wear OS from switching the watch's Wi-Fi off by itself",
-      "Keep awake also switches off 'lowering the wrist puts the watch to sleep', and puts it back only if it was on"
+      "New: Bluetooth helper (Watch tab, below Stable connection). A small app on the watch, set up once over ADB, that keeps a Bluetooth link to the phone",
+      "With it, shell commands and Settings writes can go over Bluetooth, so they keep working when the watch's Wi-Fi is off",
+      "Test build: tap Set up, then tell us which step stops (if any)"
     ]
   }
 }
