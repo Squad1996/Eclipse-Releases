@@ -35,18 +35,16 @@
     ]
   },
   "simpleadb": {
-    "version": "2.10",
-    "versionCode": 23,
-    "file": "[Eclipse] SimpleADB v2.10-test.apk",
-    "sha256": "108f692a44708c70dd28592121db02d6b54b7c37988e062d7aded0d6c56ec9b1",
-    "size": 13113135,
+    "version": "2.10.1",
+    "versionCode": 24,
+    "file": "[Eclipse] SimpleADB v2.10.1-test.apk",
+    "sha256": "c399a030b759509b9932cd1e894d4bde487fd16588c35c94737f909810ac23f8",
+    "size": 13116927,
     "notes": [
-      "New icons: Simple ADB (terminal with crescent) and the Bluetooth helper on the watch (crescent, prompt, Bluetooth badge)",
-      "Live screen reconnects by itself when the stream drops (and shows which step it is on); Live over Bluetooth now uses one Bluetooth connection and shows its steps and a log if it fails",
-      "Keep awake with the Bluetooth helper: the watch itself holds the screen on (released when you turn it off, or 10 minutes after the phone is gone)",
-      "Watch tiles grow with the text size of the phone (no more cut-off names and counts); top bar and battery ring keep their size",
-      "The helper shows how many phone connections are open instead of a stuck 'Waiting for the phone'",
-      "After updating, tap Set up again in the Bluetooth helper card (new helper app 1.4)"
+      "Bluetooth helper: keeps its own crash log (errors, and why Android last stopped it), shown on the watch and in the helper page under Details with Copy and Clear. One bad connection can no longer take the whole helper down",
+      "Live over Bluetooth is lighter (300 px, 8 fps, 300 kbps) and the helper lets go of a stuck Bluetooth write after 10 s instead of hanging; the phone no longer drops the helper link after one late answer",
+      "Live failure screen has a Copy the details button",
+      "After updating, tap Set up again in the Bluetooth helper card (new helper app 1.5). If it crashes again, open Details and send the Helper log"
     ]
   }
 }
