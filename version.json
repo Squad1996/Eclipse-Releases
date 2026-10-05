@@ -35,16 +35,14 @@
     ]
   },
   "simpleadb": {
-    "version": "2.9",
-    "versionCode": 21,
-    "file": "[Eclipse] SimpleADB v2.9-test.apk",
-    "sha256": "78b75cb1823163b2a5f2eae1a43723c9a5dd3782fd35a7c373987fe78f3c52f2",
-    "size": 13269230,
+    "version": "2.9.1",
+    "versionCode": 22,
+    "file": "[Eclipse] SimpleADB v2.9.1-test.apk",
+    "sha256": "73f54f7332a8386abe5a13b9f8b661c038574491dc900fb9e1e3a1ba59d10e98",
+    "size": 13269234,
     "notes": [
-      "Live screen over the Bluetooth helper: new quality \"Bluetooth\" (small, 12 fps, light). Used automatically when the watch's Wi-Fi is down and the helper is connected",
-      "Watch tiles line up: icon, name and state sit at the same height in every tile of a row",
-      "Setup page: re-running Set up works while the helper restarts; the helper app has its own icon",
-      "After updating, tap Set up again in the Bluetooth helper card (the helper app and its server are new)"
+      "Fix: Bluetooth helper setup step 5 failed on Android 12+ (needed a scan permission it never uses). The scan-cancel call is gone and a refused connection now shows a readable reason",
+      "Includes everything from 2.9: Live screen over Bluetooth, aligned watch tiles, setup page fixes"
     ]
   }
 }
