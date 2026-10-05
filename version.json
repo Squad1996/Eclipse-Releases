@@ -35,15 +35,16 @@
     ]
   },
   "simpleadb": {
-    "version": "2.7",
-    "versionCode": 19,
-    "file": "[Eclipse] SimpleADB v2.7-test.apk",
-    "sha256": "427da36362c74ee1b63aa21ab7a67e51abaaea079f2346e87f79257af4f48a08",
-    "size": 13157622,
+    "version": "2.8",
+    "versionCode": 20,
+    "file": "[Eclipse] SimpleADB v2.8-test.apk",
+    "sha256": "229ecc523e615b079c0b133fbed6764f7e1935a36563fe8558eb90ca9c4a31f4",
+    "size": 13158134,
     "notes": [
-      "New: Bluetooth helper (Watch tab, below Stable connection). A small app on the watch, set up once over ADB, that keeps a Bluetooth link to the phone",
-      "With it, shell commands and Settings writes can go over Bluetooth, so they keep working when the watch's Wi-Fi is off",
-      "Test build: tap Set up, then tell us which step stops (if any)"
+      "Bluetooth helper (Watch tab, below Stable connection): a small app on the watch, set up once over ADB, that keeps a Bluetooth link to the phone. With it, switches and shell commands keep working when the watch's Wi-Fi is off",
+      "Status line shows the two links (ADB · Wi-Fi and Helper · Bluetooth); tiles that go over Bluetooth carry a small Bluetooth mark",
+      "Setup page fixed: Cancel closes it, a failed step shows in red with Try again and Close, buttons no longer fall off the screen",
+      "Shell commands no longer hang when the watch doesn't close the stream, and the keep-alive check no longer drops the link under a running command"
     ]
   }
 }
