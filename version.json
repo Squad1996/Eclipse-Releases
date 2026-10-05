@@ -35,16 +35,16 @@
     ]
   },
   "simpleadb": {
-    "version": "2.8",
-    "versionCode": 20,
-    "file": "[Eclipse] SimpleADB v2.8-test.apk",
-    "sha256": "229ecc523e615b079c0b133fbed6764f7e1935a36563fe8558eb90ca9c4a31f4",
-    "size": 13158134,
+    "version": "2.9",
+    "versionCode": 21,
+    "file": "[Eclipse] SimpleADB v2.9-test.apk",
+    "sha256": "78b75cb1823163b2a5f2eae1a43723c9a5dd3782fd35a7c373987fe78f3c52f2",
+    "size": 13269230,
     "notes": [
-      "Bluetooth helper (Watch tab, below Stable connection): a small app on the watch, set up once over ADB, that keeps a Bluetooth link to the phone. With it, switches and shell commands keep working when the watch's Wi-Fi is off",
-      "Status line shows the two links (ADB · Wi-Fi and Helper · Bluetooth); tiles that go over Bluetooth carry a small Bluetooth mark",
-      "Setup page fixed: Cancel closes it, a failed step shows in red with Try again and Close, buttons no longer fall off the screen",
-      "Shell commands no longer hang when the watch doesn't close the stream, and the keep-alive check no longer drops the link under a running command"
+      "Live screen over the Bluetooth helper: new quality \"Bluetooth\" (small, 12 fps, light). Used automatically when the watch's Wi-Fi is down and the helper is connected",
+      "Watch tiles line up: icon, name and state sit at the same height in every tile of a row",
+      "Setup page: re-running Set up works while the helper restarts; the helper app has its own icon",
+      "After updating, tap Set up again in the Bluetooth helper card (the helper app and its server are new)"
     ]
   }
 }
