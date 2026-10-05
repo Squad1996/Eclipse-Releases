@@ -35,14 +35,18 @@
     ]
   },
   "simpleadb": {
-    "version": "2.9.1",
-    "versionCode": 22,
-    "file": "[Eclipse] SimpleADB v2.9.1-test.apk",
-    "sha256": "73f54f7332a8386abe5a13b9f8b661c038574491dc900fb9e1e3a1ba59d10e98",
-    "size": 13269234,
+    "version": "2.10",
+    "versionCode": 23,
+    "file": "[Eclipse] SimpleADB v2.10-test.apk",
+    "sha256": "108f692a44708c70dd28592121db02d6b54b7c37988e062d7aded0d6c56ec9b1",
+    "size": 13113135,
     "notes": [
-      "Fix: Bluetooth helper setup step 5 failed on Android 12+ (needed a scan permission it never uses). The scan-cancel call is gone and a refused connection now shows a readable reason",
-      "Includes everything from 2.9: Live screen over Bluetooth, aligned watch tiles, setup page fixes"
+      "New icons: Simple ADB (terminal with crescent) and the Bluetooth helper on the watch (crescent, prompt, Bluetooth badge)",
+      "Live screen reconnects by itself when the stream drops (and shows which step it is on); Live over Bluetooth now uses one Bluetooth connection and shows its steps and a log if it fails",
+      "Keep awake with the Bluetooth helper: the watch itself holds the screen on (released when you turn it off, or 10 minutes after the phone is gone)",
+      "Watch tiles grow with the text size of the phone (no more cut-off names and counts); top bar and battery ring keep their size",
+      "The helper shows how many phone connections are open instead of a stuck 'Waiting for the phone'",
+      "After updating, tap Set up again in the Bluetooth helper card (new helper app 1.4)"
     ]
   }
 }
