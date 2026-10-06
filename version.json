@@ -35,16 +35,16 @@
     ]
   },
   "simpleadb": {
-    "version": "2.10.1",
-    "versionCode": 24,
-    "file": "[Eclipse] SimpleADB v2.10.1-test.apk",
-    "sha256": "c399a030b759509b9932cd1e894d4bde487fd16588c35c94737f909810ac23f8",
+    "version": "2.11",
+    "versionCode": 25,
+    "file": "[Eclipse] SimpleADB v2.11-test.apk",
+    "sha256": "991bf2de4923a01d88c02e809ccf1618ff7a717cf200adf0cfa12297575f974f",
     "size": 13116927,
     "notes": [
-      "Bluetooth helper: keeps its own crash log (errors, and why Android last stopped it), shown on the watch and in the helper page under Details with Copy and Clear. One bad connection can no longer take the whole helper down",
-      "Live over Bluetooth is lighter (300 px, 8 fps, 300 kbps) and the helper lets go of a stuck Bluetooth write after 10 s instead of hanging; the phone no longer drops the helper link after one late answer",
-      "Live failure screen has a Copy the details button",
-      "After updating, tap Set up again in the Bluetooth helper card (new helper app 1.5). If it crashes again, open Details and send the Helper log"
+      "Live over Bluetooth: a restart no longer kills the new screen server (that was why it never came back); the video no longer goes through a Java pipe; it shows KB/s and, when it stops, how long it ran and why",
+      "Bluetooth helper: connection log (connect / drop / reason) next to the helper log in Details, both with Copy; link check every 5 s; setup also lifts the battery limits for the helper",
+      "Favourites: up to 8, and all favourite tiles are the same size; smaller font",
+      "After updating, tap Set up again in the Bluetooth helper card"
     ]
   }
 }
