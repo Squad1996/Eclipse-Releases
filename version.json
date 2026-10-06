@@ -35,18 +35,17 @@
     ]
   },
   "simpleadb": {
-    "version": "2.13",
-    "versionCode": 27,
-    "file": "[Eclipse] SimpleADB v2.13-test.apk",
-    "sha256": "62bcaa58f6887bb6253033e8882c549943ef9f55d039f53868218d26a3b79c20",
-    "size": 13142599,
+    "version": "2.14",
+    "versionCode": 28,
+    "file": "[Eclipse] SimpleADB v2.14-test.apk",
+    "sha256": "87786392125b7870272c0be7ac915d2fb1696b0e0d4fa610f8847d09e1594192",
+    "size": 13145607,
     "notes": [
-      "Connect with Bluetooth only: if Wi-Fi ADB is off the app offers it, with a warning listing what works, what is slower and what needs Wi-Fi",
-      "ADB over Bluetooth: files, apps, screenshots, shell and logcat work through the helper (slow, about 100 KB/s); if Wi-Fi ADB drops the app switches to it by itself (setting, on by default)",
-      "Fixed a bug that lost the first bytes of a Bluetooth stream (screenshot spinner)",
-      "Wi-Fi Direct test: wakes the watch's Wi-Fi Direct first to fix 'code 2 busy' (still optional)",
-      "Favourites: up to 8, all the same height",
-      "After updating, tap Set up again in the Bluetooth helper card (helper app 1.9)"
+      "Bluetooth helper menu rebuilt: status boxes, one Logs page with tabs, and a Copy report for testers button that copies versions and both logs in one go; one main button plus a More menu",
+      "Restarts you did yourself show as 'restarted by you' in the watch log",
+      "Wi-Fi Direct test: clears old groups, wakes the service and tries again without fixed name/password; the result lists every step so a failure shows where it stopped",
+      "Live screen: the virtual bezel turns 4x stronger per click (for the app list and settings lists); please test",
+      "After updating, tap Set up again in the Bluetooth helper card (helper app 2.0)"
     ]
   }
 }
