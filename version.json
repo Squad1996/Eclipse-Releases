@@ -35,16 +35,17 @@
     ]
   },
   "simpleadb": {
-    "version": "2.11",
-    "versionCode": 25,
-    "file": "[Eclipse] SimpleADB v2.11-test.apk",
-    "sha256": "991bf2de4923a01d88c02e809ccf1618ff7a717cf200adf0cfa12297575f974f",
-    "size": 13116927,
+    "version": "2.12",
+    "versionCode": 26,
+    "file": "[Eclipse] SimpleADB v2.12-test.apk",
+    "sha256": "d4b769e9afbbfab1ed94bc8c0d937acb2a25c4db076860aa7e90fb5ecc976898",
+    "size": 13124903,
     "notes": [
-      "Live over Bluetooth: a restart no longer kills the new screen server (that was why it never came back); the video no longer goes through a Java pipe; it shows KB/s and, when it stops, how long it ran and why",
-      "Bluetooth helper: connection log (connect / drop / reason) next to the helper log in Details, both with Copy; link check every 5 s; setup also lifts the battery limits for the helper",
-      "Favourites: up to 8, and all favourite tiles are the same size; smaller font",
-      "After updating, tap Set up again in the Bluetooth helper card"
+      "Bluetooth helper rebuilt around ONE connection: requests and Live video share it, a heartbeat both ways notices a dead link within 9 s and the app reconnects by itself, connecting no longer blocks the other Bluetooth functions",
+      "Live over Bluetooth: the video no longer needs extra Bluetooth connections; if the link drops it waits for the helper and restarts (twice at most), with Copy the details",
+      "Optional: Test Wi-Fi Direct in the helper page (only shown when the watch offers it): a speed test over a direct Wi-Fi link between phone and watch, nothing else depends on it",
+      "Helper page: the buttons stay at the bottom while the logs scroll; status of the shell server stays up to date",
+      "After updating, tap Set up again in the Bluetooth helper card (helper app 1.7, new protocol)"
     ]
   }
 }
