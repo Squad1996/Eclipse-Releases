@@ -35,17 +35,18 @@
     ]
   },
   "simpleadb": {
-    "version": "2.12",
-    "versionCode": 26,
-    "file": "[Eclipse] SimpleADB v2.12-test.apk",
-    "sha256": "d4b769e9afbbfab1ed94bc8c0d937acb2a25c4db076860aa7e90fb5ecc976898",
-    "size": 13124903,
+    "version": "2.13",
+    "versionCode": 27,
+    "file": "[Eclipse] SimpleADB v2.13-test.apk",
+    "sha256": "62bcaa58f6887bb6253033e8882c549943ef9f55d039f53868218d26a3b79c20",
+    "size": 13142599,
     "notes": [
-      "Bluetooth helper rebuilt around ONE connection: requests and Live video share it, a heartbeat both ways notices a dead link within 9 s and the app reconnects by itself, connecting no longer blocks the other Bluetooth functions",
-      "Live over Bluetooth: the video no longer needs extra Bluetooth connections; if the link drops it waits for the helper and restarts (twice at most), with Copy the details",
-      "Optional: Test Wi-Fi Direct in the helper page (only shown when the watch offers it): a speed test over a direct Wi-Fi link between phone and watch, nothing else depends on it",
-      "Helper page: the buttons stay at the bottom while the logs scroll; status of the shell server stays up to date",
-      "After updating, tap Set up again in the Bluetooth helper card (helper app 1.7, new protocol)"
+      "Connect with Bluetooth only: if Wi-Fi ADB is off the app offers it, with a warning listing what works, what is slower and what needs Wi-Fi",
+      "ADB over Bluetooth: files, apps, screenshots, shell and logcat work through the helper (slow, about 100 KB/s); if Wi-Fi ADB drops the app switches to it by itself (setting, on by default)",
+      "Fixed a bug that lost the first bytes of a Bluetooth stream (screenshot spinner)",
+      "Wi-Fi Direct test: wakes the watch's Wi-Fi Direct first to fix 'code 2 busy' (still optional)",
+      "Favourites: up to 8, all the same height",
+      "After updating, tap Set up again in the Bluetooth helper card (helper app 1.9)"
     ]
   }
 }
