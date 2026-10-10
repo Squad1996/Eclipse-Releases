@@ -35,16 +35,16 @@
     ]
   },
   "simpleadb": {
-    "version": "2.16",
-    "versionCode": 30,
-    "file": "[Eclipse] SimpleADB v2.16-test.apk",
-    "sha256": "20bafb778adf1349d8dd131b6ce0b91dad922065023ce6b52dbe6a95340624d8",
-    "size": 13162399,
+    "version": "2.17",
+    "versionCode": 31,
+    "file": "[Eclipse] SimpleADB v2.17-test.apk",
+    "sha256": "409121df74350acc0dad350bc9b201f44dd09dfcec384e2cf6dfcf0bd77646e6",
+    "size": 13185763,
     "notes": [
-      "Stable connection now turns on by itself, so Live and the app list load faster",
-      "Redesigned Bluetooth helper page, with a Copy report for testers button",
-      "Routines have about 40 steps, including Always-on display and screen timeout",
-      "NFC switch, scroll position, bezel and other small fixes",
+      "Bluetooth helper uses much less battery: it lets go when you leave the app, and Turn off really stops it",
+      "New way to switch NFC (also without the helper); tell us if it works on your watch",
+      "Clear notifications, more routine steps, and a connection log with Share diagnostics in Settings",
+      "Wi-Fi Direct test shows every step when it fails",
       "After updating, tap Update the helper in the Bluetooth helper card"
     ]
   }
